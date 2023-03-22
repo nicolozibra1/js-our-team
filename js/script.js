@@ -52,14 +52,37 @@ const ourTeam = [
         name:'Barbara',
         surname:'Ramos',
         role:'Graphic Designer',
-        image:'../img/barbara-ramos-graphic-designer.jpg'
+        image:'barbara-ramos-graphic-designer.jpg'
     },
 ];
 
 console.log(ourTeam);
 
 // CREO UN CICLO FOR PER AVERE LA POSSIBILTà DI STAMPARE GLI OGGETTI SINGOLARMENTE
+let rowHtml = '';
+
 for (let i = 0; i < ourTeam.length; i++) {
     console.log('object:' + ourTeam[i].name);
     console.log(ourTeam[i]);
+
+    const teamPeople = ourTeam[i];
+    const template = 
+                    `<div class="col-4 d-flex flex-wrap">
+                        <div class="card w-100 mb-5">
+                            <div class="card-head">
+                                <img src="../img/${teamPeople.image}">
+                            </div>
+                            <div class="card-body">
+                                ${teamPeople.role}
+                                ${teamPeople.name}
+                                ${teamPeople.surname}
+                            </div>
+                        </div>
+                    </div>`
+    console.log(template);
+    rowHtml += template;
 }
+
+let row = document.querySelector('.row');
+console.dir(row);
+row.innerHTML = rowHtml;

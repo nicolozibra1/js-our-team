@@ -10,3 +10,37 @@ header{
     background-color: var(--blue-ocean);
     height: 80px;
 }
+
+.row{
+    margin-top: 50px;
+}
+.card{
+    border: none;
+}
+.card-head{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+img{
+    width: 200px;
+    height: 200px;
+    filter: grayscale();
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 20px 20px -20px , rgba(0, 0, 0, 0.45) 25px 25px 20px -20px;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    border: 2px solid var(--acqua);
+    position: absolute;
+    top: -15px;
+    left: 40px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+h4{
+    color: var(--light-blue);
+}

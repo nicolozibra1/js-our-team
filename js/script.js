@@ -57,3 +57,9 @@ const ourTeam = [
 ];
 
 console.log(ourTeam);
+
+// CREO UN CICLO FOR PER AVERE LA POSSIBILTà DI STAMPARE GLI OGGETTI SINGOLARMENTE
+for (let i = 0; i < ourTeam.length; i++) {
+    console.log('object:' + ourTeam[i].name);
+    console.log(ourTeam[i]);
+}

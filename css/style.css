@@ -1,0 +1,12 @@
+:root{
+    --white: #ffffff;
+    --black: #00171f;
+    --blue-ocean: #003459;
+    --acqua: #007ea7;
+    --light-blue: #00a8e8;
+}
+
+header{
+    background-color: var(--blue-ocean);
+    height: 80px;
+}

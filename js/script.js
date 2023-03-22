@@ -22,37 +22,43 @@ const ourTeam = [
         name: 'Wayne',
         surname: 'Barnett',
         role: 'Founder & CEO',
-        image: '../img/wayne-barnett-founder-ceo.jpg'
+        image: '../img/wayne-barnett-founder-ceo.jpg',
+        description: 'Wayne is our Founder and CEO, with over 20 years of experience in the industry. He is a visionary leader who inspires our team to push the boundaries and deliver exceptional results.'
     },
     {
         name:'Angela',
         surname:'Caroll',
         role:'Chief Editor',
-        image:'../img/angela-caroll-chief-editor.jpg'
+        image:'../img/angela-caroll-chief-editor.jpg',
+        description:'Angela is a determined and competent woman, with extensive experience as a Chief Editor. Thanks to her ability to effectively manage teamwork and make quick and accurate decisions, she has been able to bring multiple editorial projects to success.'
     },
     {
         name:'Walter',
         surname:'Gordon',
         role:'Office Manager',
-        image:'../img/walter-gordon-office-manager.jpg'
+        image:'../img/walter-gordon-office-manager.jpg',
+        description:'Walter is a precise and reliable Office Manager with great attention to detail. Thanks to his ability to organize and coordinate the work of employees, the office runs smoothly and always achieves its goals.'
     },
     {
         name:'Angela',
         surname:'Lopez',
         role:'Social Media Manager',
-        image:'../img/angela-lopez-social-media-manager.jpg'
+        image:'../img/angela-lopez-social-media-manager.jpg',
+        description:'Angela is a skilled and creative Social Media Manager, with a talent for crafting engaging content and growing brand awareness. Her strategic approach and knowledge of social media trends have led to impressive results for her clients.'
     },
     {
         name:'Scott',
         surname:'Estrada',
         role:'Developer',
-        image:'../img/scott-estrada-developer.jpg'
+        image:'../img/scott-estrada-developer.jpg',
+        description:'Scott is a talented and innovative Developer, with a strong passion for coding and problem-solving. His technical skills and attention to detail have contributed to the successful launch of several complex software projects.'
     },
     {
         name:'Barbara',
         surname:'Ramos',
         role:'Graphic Designer',
-        image:'barbara-ramos-graphic-designer.jpg'
+        image:'barbara-ramos-graphic-designer.jpg',
+        description:'Barbara is a skilled and creative Graphic Designer, with an eye for detail and a passion for visual storytelling. Her designs are both aesthetically pleasing and effective in communicating the intended message.'
     },
 ];
 
@@ -75,7 +81,8 @@ for (let i = 0; i < ourTeam.length; i++) {
                             </div>
                             <div class="card-body">
                                 <h4>${teamPeople.role}</h4>
-                                <h5 class="text-uppercase">${teamPeople.name} ${teamPeople.surname}</h5>    
+                                <h5 class="text-uppercase">${teamPeople.name} ${teamPeople.surname}</h5>
+                                <p>${teamPeople.description}</p>    
                             </div>
                         </div>
                     </div>`

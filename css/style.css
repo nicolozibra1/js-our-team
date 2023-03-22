@@ -8,9 +8,20 @@
 
 header{
     background-color: var(--blue-ocean);
-    height: 80px;
+    height: 100px;
 }
-
+.box-logo{
+    height: 100px;
+}
+.box-logo img{
+    height: 100%;
+    width: 400px;
+    filter: invert();
+    padding-top: 15px;
+}
+.p-title{
+    color: var(--light-blue);
+}
 .row{
     margin-top: 50px;
 }
@@ -22,7 +33,7 @@ header{
     justify-content: center;
     position: relative;
 }
-img{
+.card img{
     width: 200px;
     height: 200px;
     filter: grayscale();
@@ -40,6 +51,9 @@ img{
     display: flex;
     flex-direction: column;
     padding-left: 30px;
+}
+.card-body p {
+    font-size: 0.8rem;
 }
 h4{
     color: var(--light-blue);

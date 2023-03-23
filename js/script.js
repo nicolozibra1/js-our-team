@@ -73,7 +73,7 @@ for (let i = 0; i < ourTeam.length; i++) {
 
     const teamPeople = ourTeam[i];
     const template = 
-                    `<div class="col-4 d-flex flex-wrap justify-content-center">
+                    `<div class="col-lg-4 col-md-6 col-12 d-flex flex-wrap justify-content-center">
                         <div class="card w-75 mb-5">
                             <div class="card-head">
                                 <img src="./img/${teamPeople.image}">

@@ -57,7 +57,7 @@ const ourTeam = [
         name:'Barbara',
         surname:'Ramos',
         role:'Graphic Designer',
-        image:'barbara-ramos-graphic-designer.jpg',
+        image:'../img/barbara-ramos-graphic-designer.jpg',
         description:'Barbara is a skilled and creative Graphic Designer, with an eye for detail and a passion for visual storytelling. Her designs are both aesthetically pleasing and effective in communicating the intended message.'
     },
 ];
@@ -76,7 +76,7 @@ for (let i = 0; i < ourTeam.length; i++) {
                     `<div class="col-4 d-flex flex-wrap justify-content-center">
                         <div class="card w-75 mb-5">
                             <div class="card-head">
-                                <img src="../img/${teamPeople.image}">
+                                <img src="./img/${teamPeople.image}">
                                 <div class="square"></div>
                             </div>
                             <div class="card-body">
